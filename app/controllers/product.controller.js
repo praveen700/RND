@@ -1,4 +1,4 @@
-const sql = require("../models/db");
+const sql = require("../config/db");
 const qu = require("../Querys/products.query");
 module.exports = {
     fetchProductgroup:  (req, res, next) => {
