@@ -21,7 +21,6 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to local shop application." });
 });
 
-require("./app/routes/customers.routes.js")(app);
 require("./app/routes/product.router")(app);
 
 // set port, listen for requests
